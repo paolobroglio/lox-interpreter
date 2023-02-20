@@ -7,3 +7,5 @@ lazy val root = (project in file("."))
     name := "lox-interpreter",
     idePackagePrefix := Some("com.paolobroglio.loxinterpreter")
   )
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
